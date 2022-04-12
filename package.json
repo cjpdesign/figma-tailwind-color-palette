@@ -1,0 +1,22 @@
+{
+  "name": "Tailwind-Color-Palette",
+  "version": "1.0.0",
+  "description": "Tailwind color palette generator",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "typescript": "*",
+    "node": "^17.5.0"
+  },
+  "dependencies": {
+    "ts-loader": "^9.2.7",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
